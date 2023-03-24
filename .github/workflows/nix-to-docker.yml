@@ -11,8 +11,8 @@ jobs:
         os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2.3.4
-      - uses: nixbuild/nix-quick-install-action@v9
+      - uses: actions/checkout@v3
+      - uses: nixbuild/nix-quick-install-action@v22
         with:
           nix_conf: |
             allowed-uris = https://github.com/NixOS/nixpkgs https://github.com/input-output-hk https://github.com/NixOS/nixpkgs-channels
