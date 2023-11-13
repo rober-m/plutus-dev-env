@@ -1,5 +1,5 @@
 cabal-version:      3.4
-name:               hello-world-onchain
+name:               onchain
 version:            0.1.0.0
 author:             IOG's education team
 maintainer:         education@iohk.io
